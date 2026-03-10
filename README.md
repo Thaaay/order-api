@@ -2,8 +2,11 @@
 API RESTful para gerenciamento de pedidos e itens, desenvolvida com Node.js, Express e SQLite como parte de um processo seletivo. A aplicação permite criar, listar, atualizar e excluir pedidos, com validações e tratamento de erros adequados.
 
 https://img.shields.io/badge/Node.js-18.17-green
+
 https://img.shields.io/badge/Express-4.18-blue
+
 https://img.shields.io/badge/SQLite-3-blue
+
 https://img.shields.io/badge/license-MIT-green
 
 🚀 Tecnologias
