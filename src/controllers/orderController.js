@@ -126,7 +126,7 @@ function validateOrderData(data) {
   if (!dataCriacao) {
     return 'dataCriacao é obrigatória';
   }
-  // Validação simples de data (pode ser melhor)
+  // Validação simples de data
   const date = new Date(dataCriacao);
   if (isNaN(date.getTime())) {
     return 'dataCriacao deve ser uma data válida (ISO 8601)';
