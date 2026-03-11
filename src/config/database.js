@@ -22,7 +22,7 @@ async function initializeDatabase() {
       driver: sqlite3.Database
     });
 
-    // Habilitar suporte a chaves estrangeiras (necessário para ON DELETE CASCADE)
+    // Habilitar suporte a chaves estrangeiras
     await db.exec('PRAGMA foreign_keys = ON');
 
     // Criar tabelas
