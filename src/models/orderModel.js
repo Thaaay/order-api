@@ -184,7 +184,7 @@ class OrderModel {
   /**
    * Remove um pedido pelo ID.
    * @param {number} id - ID do pedido
-   * @returns {Promise<boolean>} true se removido (ou se não existir, retorna true também, mas podemos melhorar)
+   * @returns {Promise<boolean>} true se removido
    */
   async delete(id) {
     const db = getDb();
